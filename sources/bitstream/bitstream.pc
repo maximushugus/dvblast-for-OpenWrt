@@ -1,0 +1,7 @@
+prefix=/usr/local
+includedir=/usr/local/include
+
+Name: bitstream
+Description: Binary structures for MPEG, DVB, IETF, SMPTE, IEEE, SCTE, etc.
+Version: 1.5
+Cflags: -I${includedir}
