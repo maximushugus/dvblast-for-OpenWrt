@@ -2,6 +2,7 @@ This repository contains the sources of dvblast for OpenWrt, under the folder "s
 
 In the foler "binaries" there are the precompiled and ready to execute binaries for le MIPS architecture.
 
+To use this program you first need to install "libev" on your router : "opkg update && opkg install libev"
 
 To cross compile this program for you architecture for OpenWrt :
 
