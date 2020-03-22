@@ -27,10 +27,12 @@ export LD=$TOOLCHAIN_DIR/bin/mipsel-openwrt-linux-ld
 ./configure --build=x86_64-linux-gnu (with architecture of your computer you can find in the list shown with "ls /usr/bin | grep gnu") --host=mipsel-openwrt-linux (replace mipsel with the architecture of your OpenWrt router, and the SDK you downloaded)
 
 make
+
 5) Go in the ".libs" folder created and copy the files to /folder-of-the-SDK/staging_dir/toolchain-mipsel_24kc_gcc-8.3.0_musl/usr/lib
 6) Delete "libev.so" and rename "libev.so.4.0.0" to "libev.so"
 7) Go back in the sources folder of dvblast
 8) Compile dvblast with this command :
 
 make
+
 9) The "dvblast" and "dvblastctl" are the binaries for your architecture
